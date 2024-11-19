@@ -2,7 +2,7 @@
 pragma solidity ^0.8.4;
 
 contract Coin {
-    // The ke7yword "public" makes variables
+    // The keyword "public" makes variables
     // accessible from other contracts
     address public minter;
     mapping (address => uint) public balances;
